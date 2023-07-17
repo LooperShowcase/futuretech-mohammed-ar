@@ -1,39 +1,53 @@
 h1 {
-    color:tomato;
+  color: #FF5733; /* Changed to a brighter shade of red */
 }
-h2{
-    color:black ;
+
+h2 {
+  color: #000000; /* Changed to black */
 }
-h3{
-    color: aqua;
+
+h3 {
+  color: #00FFFF; /* Changed to cyan */
 }
-body{
-background-color: white;
-align-items: center;
-display: flex;
-flex-direction: column;
+
+body {
+  background-color: #FFFFFF; /* Changed to white */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Added padding for better mobile experience */
 }
-div{
-    background-color: grey;
+
+div {
+  background-color: #CCCCCC; /* Changed to a lighter shade of grey */
+  margin-bottom: 20px; /* Added margin for better spacing */
 }
-.container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-width: 50%;
-border-radius: 10px 15px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* Changed to a percentage for responsiveness */
+  max-width: 500px; /* Added a maximum width for larger screens */
+  border-radius: 10px; /* Removed the unnecessary second value */
+  padding: 20px; /* Added padding for better mobile experience */
 }
-button{
-    background-color: blue;
-    border-radius:15px;
-    box-shadow: 0px 0px 20px green;
+
+button {
+  background-color: #0066FF; /* Changed to a brighter shade of blue */
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #00FF00; /* Changed to a brighter shade of green */
+  color: #FFFFFF; /* Added text color for better visibility */
+  padding: 10px 20px; /* Added padding for better mobile experience */
 }
-button:hover{
-    background-color:red ;
-    color: rgb(250, 255,255);
-    cursor: pointer;
+
+button: hover {
+  background-color: #FF0000; /* Changed to red */
+  cursor: pointer;
 }
-#label-container{
- background-color: gold;   
+
+#label-container {
+  background-color: #FFD700; /* Changed to gold */
+  padding: 10px; /* Added padding for better mobile experience */
 }
